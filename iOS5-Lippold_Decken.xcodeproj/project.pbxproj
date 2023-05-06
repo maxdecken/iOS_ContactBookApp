@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08EA7DD529743281003FD1CD /* Hobby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7DD229743280003FD1CD /* Hobby.swift */; };
+		08EA7DD629743281003FD1CD /* AddressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7DD329743280003FD1CD /* AddressCard.swift */; };
+		08EA7DD729743281003FD1CD /* AddressBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08EA7DD429743280003FD1CD /* AddressBook.swift */; };
+		1BA71FCB2965C92D0061E9FC /* iOS5_Lippold_DeckenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA71FCA2965C92D0061E9FC /* iOS5_Lippold_DeckenApp.swift */; };
+		1BA71FCD2965C92D0061E9FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA71FCC2965C92D0061E9FC /* ContentView.swift */; };
+		1BA71FCF2965C92E0061E9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA71FCE2965C92E0061E9FC /* Assets.xcassets */; };
+		1BA71FD22965C92E0061E9FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA71FD12965C92E0061E9FC /* Preview Assets.xcassets */; };
+		1BA71FDC2965C92E0061E9FC /* iOS5_Lippold_DeckenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA71FDB2965C92E0061E9FC /* iOS5_Lippold_DeckenTests.swift */; };
+		1BA71FE62965C92E0061E9FC /* iOS5_Lippold_DeckenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA71FE52965C92E0061E9FC /* iOS5_Lippold_DeckenUITests.swift */; };
+		1BA71FE82965C92E0061E9FC /* iOS5_Lippold_DeckenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA71FE72965C92E0061E9FC /* iOS5_Lippold_DeckenUITestsLaunchTests.swift */; };
+		1BA71FFB2965C9E70061E9FC /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA71FFA2965C9E70061E9FC /* ContactsViewModel.swift */; };
+		1BA7682D2965D0A60013C2BA /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA7682C2965D0A60013C2BA /* ContactsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BA71FD82965C92E0061E9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BA71FBF2965C92D0061E9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA71FC62965C92D0061E9FC;
+			remoteInfo = "iOS5-Lippold_Decken";
+		};
+		1BA71FE22965C92E0061E9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BA71FBF2965C92D0061E9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA71FC62965C92D0061E9FC;
+			remoteInfo = "iOS5-Lippold_Decken";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08EA7DD229743280003FD1CD /* Hobby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hobby.swift; sourceTree = "<group>"; };
+		08EA7DD329743280003FD1CD /* AddressCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressCard.swift; sourceTree = "<group>"; };
+		08EA7DD429743280003FD1CD /* AddressBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressBook.swift; sourceTree = "<group>"; };
+		1BA71FC72965C92D0061E9FC /* iOS5-Lippold_Decken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS5-Lippold_Decken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA71FCA2965C92D0061E9FC /* iOS5_Lippold_DeckenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Lippold_DeckenApp.swift; sourceTree = "<group>"; };
+		1BA71FCC2965C92D0061E9FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1BA71FCE2965C92E0061E9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BA71FD12965C92E0061E9FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1BA71FD72965C92E0061E9FC /* iOS5-Lippold_DeckenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS5-Lippold_DeckenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA71FDB2965C92E0061E9FC /* iOS5_Lippold_DeckenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Lippold_DeckenTests.swift; sourceTree = "<group>"; };
+		1BA71FE12965C92E0061E9FC /* iOS5-Lippold_DeckenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS5-Lippold_DeckenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA71FE52965C92E0061E9FC /* iOS5_Lippold_DeckenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Lippold_DeckenUITests.swift; sourceTree = "<group>"; };
+		1BA71FE72965C92E0061E9FC /* iOS5_Lippold_DeckenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS5_Lippold_DeckenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BA71FFA2965C9E70061E9FC /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		1BA7682C2965D0A60013C2BA /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BA71FC42965C92D0061E9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA71FD42965C92E0061E9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA71FDE2965C92E0061E9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BA71FBE2965C92D0061E9FC = {
+			isa = PBXGroup;
+			children = (
+				1BA71FC92965C92D0061E9FC /* iOS5-Lippold_Decken */,
+				1BA71FDA2965C92E0061E9FC /* iOS5-Lippold_DeckenTests */,
+				1BA71FE42965C92E0061E9FC /* iOS5-Lippold_DeckenUITests */,
+				1BA71FC82965C92D0061E9FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BA71FC82965C92D0061E9FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BA71FC72965C92D0061E9FC /* iOS5-Lippold_Decken.app */,
+				1BA71FD72965C92E0061E9FC /* iOS5-Lippold_DeckenTests.xctest */,
+				1BA71FE12965C92E0061E9FC /* iOS5-Lippold_DeckenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BA71FC92965C92D0061E9FC /* iOS5-Lippold_Decken */ = {
+			isa = PBXGroup;
+			children = (
+				08EA7DD429743280003FD1CD /* AddressBook.swift */,
+				08EA7DD329743280003FD1CD /* AddressCard.swift */,
+				08EA7DD229743280003FD1CD /* Hobby.swift */,
+				1BA71FCA2965C92D0061E9FC /* iOS5_Lippold_DeckenApp.swift */,
+				1BA71FCC2965C92D0061E9FC /* ContentView.swift */,
+				1BA71FCE2965C92E0061E9FC /* Assets.xcassets */,
+				1BA71FD02965C92E0061E9FC /* Preview Content */,
+				1BA71FFA2965C9E70061E9FC /* ContactsViewModel.swift */,
+				1BA7682C2965D0A60013C2BA /* ContactsView.swift */,
+			);
+			path = "iOS5-Lippold_Decken";
+			sourceTree = "<group>";
+		};
+		1BA71FD02965C92E0061E9FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1BA71FD12965C92E0061E9FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1BA71FDA2965C92E0061E9FC /* iOS5-Lippold_DeckenTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BA71FDB2965C92E0061E9FC /* iOS5_Lippold_DeckenTests.swift */,
+			);
+			path = "iOS5-Lippold_DeckenTests";
+			sourceTree = "<group>";
+		};
+		1BA71FE42965C92E0061E9FC /* iOS5-Lippold_DeckenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BA71FE52965C92E0061E9FC /* iOS5_Lippold_DeckenUITests.swift */,
+				1BA71FE72965C92E0061E9FC /* iOS5_Lippold_DeckenUITestsLaunchTests.swift */,
+			);
+			path = "iOS5-Lippold_DeckenUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BA71FC62965C92D0061E9FC /* iOS5-Lippold_Decken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA71FEB2965C92E0061E9FC /* Build configuration list for PBXNativeTarget "iOS5-Lippold_Decken" */;
+			buildPhases = (
+				1BA71FC32965C92D0061E9FC /* Sources */,
+				1BA71FC42965C92D0061E9FC /* Frameworks */,
+				1BA71FC52965C92D0061E9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS5-Lippold_Decken";
+			productName = "iOS5-Lippold_Decken";
+			productReference = 1BA71FC72965C92D0061E9FC /* iOS5-Lippold_Decken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BA71FD62965C92E0061E9FC /* iOS5-Lippold_DeckenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA71FEE2965C92E0061E9FC /* Build configuration list for PBXNativeTarget "iOS5-Lippold_DeckenTests" */;
+			buildPhases = (
+				1BA71FD32965C92E0061E9FC /* Sources */,
+				1BA71FD42965C92E0061E9FC /* Frameworks */,
+				1BA71FD52965C92E0061E9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA71FD92965C92E0061E9FC /* PBXTargetDependency */,
+			);
+			name = "iOS5-Lippold_DeckenTests";
+			productName = "iOS5-Lippold_DeckenTests";
+			productReference = 1BA71FD72965C92E0061E9FC /* iOS5-Lippold_DeckenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BA71FE02965C92E0061E9FC /* iOS5-Lippold_DeckenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA71FF12965C92E0061E9FC /* Build configuration list for PBXNativeTarget "iOS5-Lippold_DeckenUITests" */;
+			buildPhases = (
+				1BA71FDD2965C92E0061E9FC /* Sources */,
+				1BA71FDE2965C92E0061E9FC /* Frameworks */,
+				1BA71FDF2965C92E0061E9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA71FE32965C92E0061E9FC /* PBXTargetDependency */,
+			);
+			name = "iOS5-Lippold_DeckenUITests";
+			productName = "iOS5-Lippold_DeckenUITests";
+			productReference = 1BA71FE12965C92E0061E9FC /* iOS5-Lippold_DeckenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BA71FBF2965C92D0061E9FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1BA71FC62965C92D0061E9FC = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					1BA71FD62965C92E0061E9FC = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1BA71FC62965C92D0061E9FC;
+					};
+					1BA71FE02965C92E0061E9FC = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1BA71FC62965C92D0061E9FC;
+					};
+				};
+			};
+			buildConfigurationList = 1BA71FC22965C92D0061E9FC /* Build configuration list for PBXProject "iOS5-Lippold_Decken" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BA71FBE2965C92D0061E9FC;
+			productRefGroup = 1BA71FC82965C92D0061E9FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BA71FC62965C92D0061E9FC /* iOS5-Lippold_Decken */,
+				1BA71FD62965C92E0061E9FC /* iOS5-Lippold_DeckenTests */,
+				1BA71FE02965C92E0061E9FC /* iOS5-Lippold_DeckenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BA71FC52965C92D0061E9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA71FD22965C92E0061E9FC /* Preview Assets.xcassets in Resources */,
+				1BA71FCF2965C92E0061E9FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA71FD52965C92E0061E9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA71FDF2965C92E0061E9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BA71FC32965C92D0061E9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EA7DD629743281003FD1CD /* AddressCard.swift in Sources */,
+				1BA71FFB2965C9E70061E9FC /* ContactsViewModel.swift in Sources */,
+				08EA7DD729743281003FD1CD /* AddressBook.swift in Sources */,
+				08EA7DD529743281003FD1CD /* Hobby.swift in Sources */,
+				1BA71FCD2965C92D0061E9FC /* ContentView.swift in Sources */,
+				1BA71FCB2965C92D0061E9FC /* iOS5_Lippold_DeckenApp.swift in Sources */,
+				1BA7682D2965D0A60013C2BA /* ContactsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA71FD32965C92E0061E9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA71FDC2965C92E0061E9FC /* iOS5_Lippold_DeckenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA71FDD2965C92E0061E9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA71FE62965C92E0061E9FC /* iOS5_Lippold_DeckenUITests.swift in Sources */,
+				1BA71FE82965C92E0061E9FC /* iOS5_Lippold_DeckenUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BA71FD92965C92E0061E9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA71FC62965C92D0061E9FC /* iOS5-Lippold_Decken */;
+			targetProxy = 1BA71FD82965C92E0061E9FC /* PBXContainerItemProxy */;
+		};
+		1BA71FE32965C92E0061E9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA71FC62965C92D0061E9FC /* iOS5-Lippold_Decken */;
+			targetProxy = 1BA71FE22965C92E0061E9FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1BA71FE92965C92E0061E9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1BA71FEA2965C92E0061E9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BA71FEC2965C92E0061E9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS5-Lippold_Decken/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htw.Lippold-Decken.iOS5-Lippold-Decken";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BA71FED2965C92E0061E9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS5-Lippold_Decken/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htw.Lippold-Decken.iOS5-Lippold-Decken";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BA71FEF2965C92E0061E9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htw.Lippold-Decken.iOS5-Lippold-DeckenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS5-Lippold_Decken.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS5-Lippold_Decken";
+			};
+			name = Debug;
+		};
+		1BA71FF02965C92E0061E9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htw.Lippold-Decken.iOS5-Lippold-DeckenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS5-Lippold_Decken.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS5-Lippold_Decken";
+			};
+			name = Release;
+		};
+		1BA71FF22965C92E0061E9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htw.Lippold-Decken.iOS5-Lippold-DeckenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS5-Lippold_Decken";
+			};
+			name = Debug;
+		};
+		1BA71FF32965C92E0061E9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htw.Lippold-Decken.iOS5-Lippold-DeckenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS5-Lippold_Decken";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BA71FC22965C92D0061E9FC /* Build configuration list for PBXProject "iOS5-Lippold_Decken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA71FE92965C92E0061E9FC /* Debug */,
+				1BA71FEA2965C92E0061E9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA71FEB2965C92E0061E9FC /* Build configuration list for PBXNativeTarget "iOS5-Lippold_Decken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA71FEC2965C92E0061E9FC /* Debug */,
+				1BA71FED2965C92E0061E9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA71FEE2965C92E0061E9FC /* Build configuration list for PBXNativeTarget "iOS5-Lippold_DeckenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA71FEF2965C92E0061E9FC /* Debug */,
+				1BA71FF02965C92E0061E9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA71FF12965C92E0061E9FC /* Build configuration list for PBXNativeTarget "iOS5-Lippold_DeckenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA71FF22965C92E0061E9FC /* Debug */,
+				1BA71FF32965C92E0061E9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BA71FBF2965C92D0061E9FC /* Project object */;
+}
